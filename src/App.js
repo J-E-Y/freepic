@@ -1,12 +1,7 @@
-import React from "react";
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-  Redirect,
-  RouteComponentProps,
-} from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
+
 function App() {
   return (
     <BrowserRouter>
